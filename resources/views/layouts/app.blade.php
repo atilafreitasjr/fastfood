@@ -29,8 +29,19 @@
 
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                @yield('content')
             </main>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/currency.js"></script>
+
+    <script>
+        document.addEventListener('livewire:load', function () {
+            if (typeof Currency === 'undefined') {
+                console.log('Currency.js não está definido.');
+            } else {
+                console.log('Currency.js carregado com sucesso.');
+            }
+        });
+    </script>
     </body>
 </html>

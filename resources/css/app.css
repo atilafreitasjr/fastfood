@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Desenvolvedores */
+.bg-logo {
+    background-image: url('/imagens/logo_Park_Garage.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Garage</title>
+    <title>Garage Park</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
+    @stack('styles')
 </head>
 <body class="font-sans antialiased h-screen w-screen">
 
@@ -35,12 +37,13 @@
 
             {{-- Activates the menu item when a route matches the `link` property --}}
             <x-mary-menu activate-by-route>
-                <x-mary-menu-item title="Estacionados" icon="o-truck" link="/parking" class="text-lg" icon-class="text-2xl" />
-                <x-mary-menu-item title="Entrada" icon="o-arrow-small-down" link="{{ route('entrada.veiculo') }}" class="text-lg" icon-class="text-2xl" />
+                <x-mary-menu-item title="Estacionar" icon="o-arrow-left-end-on-rectangle" link="/parking" class="text-lg" icon-class="text-2xl" />
+                <x-mary-menu-item title="Carros/Fabricantes" icon="o-truck" link="/car" class="text-lg" icon-class="text-2xl" />
+                {{-- <x-mary-menu-item title="Entrada" icon="o-arrow-small-down" link="{{ route('entrada.veiculo') }}" class="text-lg" icon-class="text-2xl" />
                 <x-mary-menu-item title="Saída" icon="o-arrow-small-up" link="{{ route('saida.veiculo') }}" class="text-lg" icon-class="text-2xl" />
                 <x-mary-menu-item title="Relatórios" icon="o-document" link="{{ route('relatorio.veiculo') }}" class="text-lg" icon-class="text-2xl" />
                 <x-mary-menu-item title="Mensagem" icon="o-envelope" link="{{ route('mensagens') }}" class="text-lg" icon-class="text-2xl" />
-                <x-mary-menu-item title="Notificações" icon="o-bell" link="{{ route('notificacoes') }}" class="text-lg" icon-class="text-2xl" />
+                <x-mary-menu-item title="Notificações" icon="o-bell" link="{{ route('notificacoes') }}" class="text-lg" icon-class="text-2xl" /> --}}
                 <x-mary-menu-separator />
                 <x-mary-menu-sub title="Configurações" icon="o-cog-6-tooth" class="text-lg" icon-class="text-2xl">
                     <x-mary-menu-item title="Wifi" icon="o-wifi" link="####" class="text-lg" icon-class="text-2xl" />
@@ -71,6 +74,7 @@
     </x-mary-main>
 
     @livewireScripts
+    @stack('scripts')
 
 </body>
 </html>

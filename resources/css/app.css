@@ -4,8 +4,17 @@
 
 /* Desenvolvedores */
 .bg-logo {
-    background-image: url('/imagens/logo_Park_Garage.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* Ajustes para o modal da Mary UI */
+.modal-box {
+    max-width: 600px;
+    width: 90%;
+}
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
 }

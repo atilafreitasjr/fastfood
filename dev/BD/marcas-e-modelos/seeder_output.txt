@@ -1,0 +1,1230 @@
+['fabricante' => 'ACURA', 'modelo' => 'INTEGRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ACURA', 'modelo' => 'LEGEND', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ACURA', 'modelo' => 'NSX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AGRALE', 'modelo' => 'MARRUA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '145', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '147', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '155', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '156', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '164', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '166', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => '2300', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => 'SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AM GEN', 'modelo' => 'HUMMER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'AM-825', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'HI-TOPIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'ROCSTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'TOPIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'TOWNER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => '100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => '80', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A4 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A5 COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A6 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'Q3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'Q5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'Q7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'R8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'RS3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'RS4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'RS5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'RS6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S4 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S6 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUGGY', 'modelo' => 'BUGGY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CADILLAC', 'modelo' => 'DEVILLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CADILLAC', 'modelo' => 'ELDORADO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CADILLAC', 'modelo' => 'SEVILLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CBT', 'modelo' => 'JAVALI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'MINI STAR FAMILY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'MINI STAR UTILITY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'CIELO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'FACE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'QQ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'S-18', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'TIGGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => '300C', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'CARAVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'CIRRUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'GRAN CARAVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'LE BARON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'NEON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'PT CRUISER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'SEBRING', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'STRATUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'TOWN E COUNTRY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'VISION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'AIRCROSS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'AX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'BERLINGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'BX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'DS3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'EVASION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'JUMPER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XANTIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XSARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'ZX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CROSS LANDER', 'modelo' => 'CL-244', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CROSS LANDER', 'modelo' => 'CL-330', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'ESPERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'LANOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'LEGANZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'NUBIRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'PRINCE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'RACER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'SUPER SALON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'TICO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'APPLAUSE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'CHARADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'CUORE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'FEROZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'GRAN MOVE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'MOVE VAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAIHATSU', 'modelo' => 'TERIOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'AVENGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'DAKOTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'JOURNEY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'RAM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'STEALTH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'EFFA', 'modelo' => 'M-100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'EFFA', 'modelo' => 'PLUTUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'EFFA', 'modelo' => 'START', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'EFFA', 'modelo' => 'ULC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ENGESA', 'modelo' => 'ENGESA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ENVEMO', 'modelo' => 'CAMPER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ENVEMO', 'modelo' => 'MASTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '348', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '355', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '360', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '456', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '550', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '575M', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '612', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'CALIFORNIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F430', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F599', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => '147', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => '500', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'BRAVA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'BRAVO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'DOBLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'DUCATO CARGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'DUNA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'ELBA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'FIORINO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'FREEMONT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'GRAND SIENA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'IDEA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'LINEA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'MAREA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'OGGI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'PALIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'PANORAMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'PREMIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'PUNTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'SIENA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'STILO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'STRADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'TEMPRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'TIPO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'UNO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'AEROSTAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ASPIRE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'BELINA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CLUB WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CONTOUR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CORCEL II', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'COURIER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CROWN VICTORIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'DEL REY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ECOSPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'EDGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ESCORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'EXPEDITION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'EXPLORER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-1000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-150', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-250', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FIESTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FOCUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FURGLAINE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FUSION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'IBIZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'KA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'MONDEO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'MUSTANG', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'PAMPA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'PROBE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'RANGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'VERSAILLES ROYALE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TAURUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'THUNDERBIRD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TRANSIT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'VERONA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'VERSAILLES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'WINDSTAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'A-10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'A-20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'AGILE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'ASTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'BLAZER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'BONANZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'C-10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'C-20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CALIBRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CAMARO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CAPRICE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CAPTIVA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CARAVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CAVALIER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CELTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CHEVY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CHEYNNE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'COBALT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CORSA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CORVETTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CRUZE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'D-10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'D-20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'IPANEMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'KADETT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'LUMINA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MALIBU', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MERIVA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MONTANA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'OMEGA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'OPALA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'PRISMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'S10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SILVERADO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SONIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SONOMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SPACEVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SS10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SUBURBAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SYCLONE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'TIGRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'TRACKER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'TRAFIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'VECTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'VERANEIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'ZAFIRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GREAT WALL', 'modelo' => 'HOVER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'BR-800', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'CARAJAS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'TOCANTINS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'XAVANTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'VIP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HAFEI', 'modelo' => 'TOWNER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ACCORD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CITY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CIVIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CR-V', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'FIT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ODYSSEY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'PASSPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'PRELUDE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'ACCENT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'ATOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'AZERA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'ELANTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'EXCEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'GALLOPER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'GENESIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'H1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'H100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'I30', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'IX35', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'MATRIX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'PORTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'SANTA FE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'SCOUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'SONATA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'TERRACAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'TRAJET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'TUCSON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'VELOSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'VERACRUZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'DAIMLER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'S-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'X-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MODELOS XJ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MODELOS XK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'CHEROKEE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'COMMANDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'COMPASS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'GRAND CHEROKEE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'WRANGLER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JINBEI', 'modelo' => 'TOPIC VAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JPX', 'modelo' => 'JIPE MONTEZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JPX', 'modelo' => 'PICAPE MONTEZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'BESTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'BONGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CADENZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CARENS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CARNIVAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CERATO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CERES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CLARUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'MAGENTIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'MOHAVE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'OPIRUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'OPTIMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'PICANTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'SEPHIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'SHUMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'SORENTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'SOUL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'SPORTAGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LADA', 'modelo' => 'LAIKA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LADA', 'modelo' => 'NIVA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LADA', 'modelo' => 'SAMARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'GALLARDO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'MURCIELAGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAND ROVER', 'modelo' => 'DEFENDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAND ROVER', 'modelo' => 'DISCOVERY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAND ROVER', 'modelo' => 'FREELANDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAND ROVER', 'modelo' => 'NEW RANGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAND ROVER', 'modelo' => 'RANGE ROVER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'ES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'GS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'IS-300', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'LS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'RX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LEXUS', 'modelo' => 'SC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LIFAN', 'modelo' => '320', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LIFAN', 'modelo' => '620', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LOBINI', 'modelo' => 'H1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LOTUS', 'modelo' => 'ELAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LOTUS', 'modelo' => 'ESPRIT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'SCORPIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => '222', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => '228', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => '3200', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => '430', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'GHIBLI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'GRANCABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'GRANSPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'GRANTURISMO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'QUATTROPORTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'SHAMAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MASERATI', 'modelo' => 'SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MATRA', 'modelo' => 'PICK-UP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => '323', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => '626', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => '929', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'B-2500', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'B2200', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'MILLENIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'MPV', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'MX-3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'MX-5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'NAVAJO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'PROTEGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'RX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE A', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE B', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE R', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE GLK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'SPRINTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCURY', 'modelo' => 'MYSTIQUE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCURY', 'modelo' => 'SABLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MG', 'modelo' => '550', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MG', 'modelo' => 'MG6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'COOPER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'ONE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => '3000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'AIRTREK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'ASX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'COLT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'DIAMANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'ECLIPSE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'EXPO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'GALANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'GRANDIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'L200', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'L300', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'LANCER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'MIRAGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'MONTERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'OUTLANDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'SPACE WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'BG-TRUCK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => '350Z', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'ALTIMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'AX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'D-21', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'FRONTIER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'KING-CAB', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'LIVINA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'MARCH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'MAXIMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'MURANO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'NX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'PATHFINDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'PRIMERA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'QUEST', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'SENTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'STANZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => '180SX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'TERRANO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'TIIDA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'VERSA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'X-TRAIL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'XTERRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'ZX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '106', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '205', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '206', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '207', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '3008', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '306', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '307', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '308', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '405', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '406', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '407', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '408', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '504', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '505', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '508', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '605', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '607', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '806', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '807', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'BOXER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'HOGGAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'PARTNER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'RCZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'GRAN VOYAGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'SUNDANCE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PONTIAC', 'modelo' => 'TRANS-AM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PONTIAC', 'modelo' => 'TRANS-SPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => '911', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'BOXSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'CAYENNE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'CAYMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'PANAMERA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => '21 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'CLIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'DUSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'EXPRESS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'FLUENCE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'KANGOO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'LAGUNA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'LOGAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'MASTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'MEGANE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SAFRANE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SANDERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SCENIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SYMBOL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'TRAFIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'TWINGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SAAB', 'modelo' => '9000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SATURN', 'modelo' => 'SL-2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SEAT', 'modelo' => 'CORDOBA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SEAT', 'modelo' => 'IBIZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SEAT', 'modelo' => 'INCA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SMART', 'modelo' => 'FORTWO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'ACTYON SPORTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'CHAIRMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'ISTANA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'KORANDO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'KYRON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'MUSSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'REXTON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'FORESTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'IMPREZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'LEGACY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'OUTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'SVX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'TRIBECA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'VIVIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'BALENO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'GRAND VITARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'IGNIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'JIMNY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'SUPER CARRY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'SWIFT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'SX4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'VITARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'WAGON R', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TAC', 'modelo' => 'STARK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'AVALON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'BANDEIRANTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'CAMRY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'CELICA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'COROLLA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'CORONA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'HILUX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'LAND CRUISER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'MR-2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'PASEO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'PREVIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'RAV4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'SUPRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TROLLER', 'modelo' => 'PANTANAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TROLLER', 'modelo' => 'T-4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '400 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '850', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '900 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'AMAROK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'APOLLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'BORA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'CARAVELLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'CORRADO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'EOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'EUROVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'FOX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'FUSCA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'GOL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'GOLF', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'JETTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'KOMBI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'LOGUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'PARATI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'PASSAT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'POINTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'POLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'SANTANA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'SAVEIRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'SPACEFOX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'TIGUAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'TOUAREG', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'VOYAGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ACURA', 'modelo' => 'ZDX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => '140', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'BRASILIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'BRASILVAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CORCEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'PALIO WEEKEND', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FOCUS SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FIESTA SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FIESTA TRAIL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '207 SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ESCORT SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '307 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '307 SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4 PALLAS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4 PICASSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4 VTR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'CLIO SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'COROLLA FIELDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'HILUX SW4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'MEGANE GRAND TOUR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SANDERO STEPWAY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XSARA PICASSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'UTILITARIOS AGRICOLAS', 'modelo' => 'COLHEITADEIRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'WILLYS OVERLAND', 'modelo' => 'PICKUP F75', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'X12', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'BEL AIR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'RX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'C-14', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CADILLAC', 'modelo' => 'SRX4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'C-15', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'BRASIL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'POLARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => '600', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-01', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FALCON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'GALAXIE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'MAVERICK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'MODELO A', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'NEW FIESTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA FX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HUMMER', 'modelo' => 'H3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'PRIME', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'TIBURON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'JEEP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'CJ5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KARMANN GHIA', 'modelo' => 'TC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE CLC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE CLS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCURY', 'modelo' => 'MONTEREY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'TOPSPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'TARGA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'X8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => '370Z', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GTB', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GTC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MORRIS', 'modelo' => 'AUSTIN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => '7TL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => '19', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SKODA', 'modelo' => 'CONVERSÍVEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'SUPERMINI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'TL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'TOPOLINO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'SR5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'VITZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'VARIANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'CANDANGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'SP2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HANOMAG', 'modelo' => 'RECORB', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'POLAUTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'GORDINI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HILLMAN', 'modelo' => 'MINX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'ETIOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'ONIX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'HB20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '330', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '520', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '730', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'M1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'SERIE Z', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE SLK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE C', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE E', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE CL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE CLK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE S', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE SL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE SLS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE G', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE GL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE M', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HRG', 'modelo' => '1500', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'EQUUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => '350 GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => '400 GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'MIURA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'ISLERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'ESPADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'COUNTACH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'DIABLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'ZAGATO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'ALAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'LM002', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'REVENTON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'ANKONIAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'AVENTADOR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'SESTO ELEMENTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J3 TURIN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SANDERO GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SPIN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'TRAILBLAZER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C3 PICASSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'GRAND C4 PICASSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'JUMPER MINIBUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'JUMPER VETRATO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '207 SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '207 QUIKSILVER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '207 ESCAPADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '308 CC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'BOXER PASSAGEIRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'NEW FIESTA SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TRANSIT PASSAGEIRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TRANSIT CHASSI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A4 AVANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S4 AVANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A5 SPORTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A5 CABRIOLET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S5 COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S5 SPORTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S5 CABRIOLET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A6 AVANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A6 ALLROAD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S6 AVANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'S7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TT ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TT RS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TT RS ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'TTS ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'R8 SPYDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'R8 GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'R8 GT SPYDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F12', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '458 SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '458 ITALIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'FF', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '599', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'SA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'CHALLENGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'SUPERAMERICA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F430 SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '430', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '612 SESSANTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '599 GTB', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'SCUDERIA SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '512', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '456 GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '348 GTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '348 SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F355', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F355 SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'F50', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '355 SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '360 MODENA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO FULL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO DAKAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO TR4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'LANCER SPORTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'LANCER EVOLUTION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'L200 TRITON SAVANA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'L200 TRITON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'LIVINA X-GEAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => 'GRAND LIVINA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'NEW ACTYON SPORTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'PRIUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'SPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'MTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'SPIDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'KABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'SAGA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'SAGA II', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => '787', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MIURA', 'modelo' => 'X11', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GAIOLA', 'modelo' => 'GAIOLA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'NITRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'CHALLENGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'DART', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'LE BARON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'CORDOBA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'CHARGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'WINDSOR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'CROSSFIRE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => 'CORDOBA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CADILLAC', 'modelo' => 'ESCALADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'RIVIERA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'CENTURY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'APOLLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'CENTURION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'EIGHT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'ELECTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'ESTATE WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'GRAN SPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'GSX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'INVICTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'LESABRE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'LIMITED', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'PARK AVENUE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'RAINIER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'REATTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'REGAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'RENDEZVOUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'ROADMASTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'ROYAUM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SKYHAWK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SKYLARK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SOMERSET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SPECIAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SPORT WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'SUPER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'TERRAZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'WILDCAT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'LACROSSE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'ENCLAVE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'GL8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'HRV', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUICK', 'modelo' => 'LUCERNE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'SIERRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'BROUGHAM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'CHAIRMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'DAMAS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'GENTRA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'MAEPSY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'ISTANA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'KALOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'KORANDO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'LACETTI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'LEMANS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'MATIZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'MUSSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'NEXIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'REZZO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'ROYALE PRINCE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'ROYALE SALON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'STATESMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'TOSCA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DAEWOO', 'modelo' => 'WINSTORM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'WILLYS OVERLAND', 'modelo' => 'RURAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'D100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => '170', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'CUSTOM ROYAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CLUB COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'MAGNUM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'GMC 100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PONTIAC', 'modelo' => 'SOLSTICE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'WILLYS OVERLAND', 'modelo' => 'ITAMARATY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK V', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'STUDEBAKER', 'modelo' => 'CHAMPION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'BALILLA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'WILLYS OVERLAND', 'modelo' => 'INTERLAGOS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'X15', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-85', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'SPEEDSTER 356', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JINBEI', 'modelo' => 'TOPIC FURGAO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JINBEI', 'modelo' => 'TOPIC ESCOLAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => '300D', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE TE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'T-100', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'MEGANE SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A4 CABRIOLET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA G', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA G COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA G CONVERSIVEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA M', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA EX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA JX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'INFINITI', 'modelo' => 'LINHA QX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MODELOS XF', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'F-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK VII', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK VIII', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK IX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK X', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'E-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'C-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'D-TYPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK I', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAGUAR', 'modelo' => 'MARK II', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GT4R', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'SPYDER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'GTI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'AM1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'AM2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'AM3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'AM4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PUMA', 'modelo' => 'AMV', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ACTY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'AIRWAVE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ASCOT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'BALLADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'BEAT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CR-X', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CONCERTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'CR-Z', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'DOMANI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'EDIX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ELEMENT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'EV PLUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'FCX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'FR-V', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'HR-V', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'HSC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'INSIGHT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ACURA', 'modelo' => 'TL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'LIFE DUNK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'LOGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'MOBILIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ACURA', 'modelo' => 'MDX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ORTHIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'PARTNER VAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'PILOT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'RIDGELINE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'S2000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'S600', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'S500', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'S800', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'STEPWGN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'STREAM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'THATS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'VAMOZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'Z', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'ZEST', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'AERIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'ALTO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'APV', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'KEI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'LAPIN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'MR WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'XL-7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUZUKI', 'modelo' => 'VERONA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'WILLYS OVERLAND', 'modelo' => 'JEEP CJ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '306 CABRIOLET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'BELCAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KAISER', 'modelo' => 'M715', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '407 SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '307 CC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'STYLELINE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ANGLIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'GT2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'YUKON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DE SOTO', 'modelo' => 'SPORTSMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => '21 NEVADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BUGATTI', 'modelo' => 'VEYRON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => 'ENZO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '306 SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ALFA ROMEO', 'modelo' => 'TI 80', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PORSCHE', 'modelo' => 'SPYDER 550', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FERRARI', 'modelo' => '380 GTB', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TROLLER', 'modelo' => 'T-5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DODGE', 'modelo' => 'KINGSWAY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SSR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'IMPALA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '208', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'GRAND BLAZER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '100 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '200 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '300 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '66', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '700 SERIES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'AMAZON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'C303', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'DUETT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'L3314', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'OV 4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'P1800', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'SUGGA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'ONCE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'DE LUXE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'CUSTOM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'T-BUCKET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'G15', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO FULL 3D', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MITSUBISHI', 'modelo' => 'PAJERO SPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '120 CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '320 TOURING', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '330 CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'SERIE 5 TOURING', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'SERIE 6 CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'SERIE M CONVERSIVEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'M5 TOURING', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'SERIE Z ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'KA SPORT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'CC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'CERATO KOUP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'ASTRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'COROLLA XRS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'ETIOS SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FREESTYLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCURY', 'modelo' => 'COUGAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'XUV 500', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'XYLO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'BOLERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'THAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'AXE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'LEGEND', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'CJ3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'ARMADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'CHASSI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAHINDRA', 'modelo' => 'SCORPIO PICK-UP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'STAR TRUCK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'STAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'STAR VAN CARGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHANA', 'modelo' => 'STAR VAN PASSAGEIROS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => 'ALVORADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => 'CHAMBORD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => 'PROFISSIONAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => 'VEDETTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => 'ARONDE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => '1200S', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SIMCA', 'modelo' => '1000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'HB20X', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'HB20S', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MONZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CHEVETTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LIFAN', 'modelo' => 'X60', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'TRAX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '118', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '120', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '130', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'BAVARIA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'C-2800', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '318', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '320', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '318 CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '325 CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '530', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '540', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '550', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '740', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '750', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '760', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DITALLY', 'modelo' => 'MATRIX 4X4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'A7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'A9', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'A9 CARGO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'T20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'T20 BAU', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SHINERAY', 'modelo' => 'T22', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ENVEMO', 'modelo' => 'SUPER 90 COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'X20', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'ITAIPU', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'G800', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'XEF', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'MOTOMACHINE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'BUGATO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GURGEL', 'modelo' => 'QT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'CAICARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'CARCARA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'FISSORE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'MALZONI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'DKW-VEMAG', 'modelo' => 'VEMAGUET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4 LOUNGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'CX-7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TANGER', 'modelo' => 'TR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TANGER', 'modelo' => 'LUCENA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TANGER', 'modelo' => 'SEVETSE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TANGER', 'modelo' => 'RAGGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'C70', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'C30', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => '544', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'S40', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'S60', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'S70', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'S80', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'V40', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'V50', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'V60', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'V70', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'S90', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'XC60', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'XC70', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'XC90', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'P1900', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'PV36', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'PV444', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'PV544', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'PV51', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'PV654', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLVO', 'modelo' => 'C50', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => '190', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE CLA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE V', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'VANEO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CITAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'VARIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MERCEDES-BENZ', 'modelo' => 'CLASSE S CLASSICO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'J3S', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RELY', 'modelo' => 'PICK-UP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RELY', 'modelo' => 'VAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C3 SOLARIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C3 XTR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C4 SOLARIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C5 BREAK/TOURER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XSARA BREAK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XSARA VTS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XANTIA BREAK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'XM BREAK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C15', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'NEMO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'VISA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C3 PLURIEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'DS4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'DS5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'JUMPY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C-CROSSER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C35', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'C25', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'CX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'CX BREAK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'AXEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'DYANE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'GS/GSA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'GS/GSA BREAK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'MEHARI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'SAXO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'SM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CITROEN', 'modelo' => 'ELYSEE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'MASTER MINIBUS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'CELER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'CELER SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHERY', 'modelo' => 'CIELO SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A1 SPORTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A1 QUATTRO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A3 SPORTBACK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'RS4 AVANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'A8L W12', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'AUDI', 'modelo' => 'R8 V10', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'RANGER CD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'T140', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'X1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'X3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'X5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'X6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '840', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '850', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '645', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => '650', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HONDA', 'modelo' => 'FIT TWIST', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MCLAREN', 'modelo' => 'MP4', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MCLAREN', 'modelo' => 'F1', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'MONDEO SW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ESCORT SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ESCORT CONVERSIVEL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MAZDA', 'modelo' => 'MX-6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CORISCO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CHEVELLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'EXCURSION', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'TOURAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'F-10000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => 'HOGGAR ESCAPADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'PHAETON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'TRANSPORTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'GRAND BESTA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => '200SX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'NISSAN', 'modelo' => '240SX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => '300M', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHRYSLER', 'modelo' => '300C TOURING', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'TORINO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'VENTURE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'FLEETLINE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'FLEETMASTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'DELUXE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'ESCORT XR3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MASTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'TORONADO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SIX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'EIGHT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'DELUXE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SERIES 60', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SERIES 70', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SERIES 80', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SERIES 90', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'STARFIRE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => '442', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUTLASS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUTLASS SUPREME', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUTLASS SALON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUTLASS CALAIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUTLASS CIERA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'CUSTOM CRUISER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'VISTA CRUISER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'F-85', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'FIRENZA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'ACHIEVA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'ALERO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'AURORA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'BRAVADA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'INTRIGUE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'OLDSMOBILE', 'modelo' => 'SILHOUETTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'SUPERBIRD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'FURY', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'SPECIAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PROWLER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'TRAIL DUSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'VOYAGER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'SCAMP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'ARROW', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PT50', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PT57', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PT81', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PT105', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'PT125', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'EXPRESS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'VOYAGER EXPRESSO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'NEON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'LASER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'CARAVELLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'STATION WAGON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'MODEL Q', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PLYMOUTH', 'modelo' => 'MODEL P6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DB9 COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DB9 VOLANTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'VIRAGE COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'RAPIDE S', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V12 VANTAGE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V8 VANTAGE COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V8 VANTAGE ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V8 VANTAGE S COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V8 VANTAGE S ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'VANQUISH COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'VANQUISH VOLANTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'V12 ZAGATO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DB5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DBS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DBS VOLANTE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'CYGNET', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'ONE-77', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ASTON MARTIN', 'modelo' => 'DBR9', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'M3', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'M5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'M6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'BMW', 'modelo' => 'X6 M', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'COUPE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'ROADSTER', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'COUNTRYMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'PACEMAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'MINI', 'modelo' => 'JOHN COOPER WORKS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PAGANI', 'modelo' => 'ZONDA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'NEW XV', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'IMPREZA WRX HATCH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'IMPREZA WRX STI HATCH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'IMPREZA WRX STI SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SUBARU', 'modelo' => 'IMPREZA WRX SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'TOYOTA', 'modelo' => 'ETIOS CROSS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LAMBORGHINI', 'modelo' => 'HURACAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'UP', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SMART', 'modelo' => 'FORTWO CABRIO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'GT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'GTL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'GTM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'C2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'CRX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'ADAMO', 'modelo' => 'AC 2000', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'AVIATOR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'BLACKWOOD', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'CAPRI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'CONTINENTAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'LS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MARK', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MARK LT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MKR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MKS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MKX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'MKZ', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'NAVIGATOR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'PREMIERE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'TOWN CAR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'VERSAILLES', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LINCOLN', 'modelo' => 'ZEPHYR', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'CLASSIC', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'SSANGYONG', 'modelo' => 'ACTYON', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'MARAJO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'CHEVROLET', 'modelo' => 'SUPREMA', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'NEW BEETLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'QUANTUM', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'CROSSFOX', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'MILLE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GEELY', 'modelo' => 'GC2', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'GEELY', 'modelo' => 'EC7', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'LIFAN', 'modelo' => '530', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'MOBI', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FIAT', 'modelo' => 'TORO', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JEEP', 'modelo' => 'RENEGADE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'DUSTER OROCH', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'RENAULT', 'modelo' => 'SANDERO RS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'HB20R', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'HYUNDAI', 'modelo' => 'GRAND SANTA FE', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'GOLF VARIANT', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'VOLKSWAGEN', 'modelo' => 'SPACE CROSS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'PEUGEOT', 'modelo' => '2008', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'QUORIS', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'KIA', 'modelo' => 'GRAND CARNIVAL', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'T8', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'T6', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'JAC', 'modelo' => 'T5', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'KA SEDAN', 'created_at' => now(), 'updated_at' => now()],
+['fabricante' => 'FORD', 'modelo' => 'FOCUS FASTBACK', 'created_at' => now(), 'updated_at' => now()],

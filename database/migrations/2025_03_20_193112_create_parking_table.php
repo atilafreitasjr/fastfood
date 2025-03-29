@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('parking', function (Blueprint $table) {
             $table->id();
-            $table->foreign('car_id')->references('id')->on('car')->onDelete('restrict');
+            $table->unsignedBigInteger('car_id'); // Adiciona a coluna car_id
+            $table->foreign('car_id')->references('id')->on('car')->onDelete('restrict'); // Define a chave estrangeira
             $table->string('placa', 7);
             $table->timestamp('data_hora_entrada');
             $table->timestamp('data_hora_saida')->nullable();

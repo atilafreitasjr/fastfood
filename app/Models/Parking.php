@@ -20,6 +20,11 @@ class Parking extends Model
         'plano',
     ];
 
+    protected $casts = [
+        'data_hora_entrada' => 'datetime',
+        'data_hora_saida' => 'datetime',
+    ];
+
     public function car()
     {
         return $this->belongsTo(Car::class);

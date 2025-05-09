@@ -12,6 +12,7 @@ class ParkingEdit extends Component
     public $modelos = []; // Lista de modelos filtrados
     public $car_fabricante; // ID do fabricante selecionado
     public $car_modelo; // ID do modelo selecionado
+    public $car_tipo; // ID do tipo selecionado
     public $tempo_permanencia; // Tempo de permanência
 
     public function mount($id)
@@ -20,14 +21,16 @@ class ParkingEdit extends Component
         $this->parking_id = $parking->id;
         $this->car_id = $parking->car_id;
         $this->placa = $parking->placa;
-        $this->data_hora_entrada = \Carbon\Carbon::parse($parking->data_hora_entrada)->format('Y-m-d H:i');
-        $this->data_hora_saida = \Carbon\Carbon::now('America/Sao_Paulo')->format('Y-m-d H:i'); // Horário ajustado para Brasília
+        $this->data_hora_entrada = \Carbon\Carbon::parse($parking->data_hora_entrada)->format('d-m-Y H:i');
+        $this->data_hora_saida = \Carbon\Carbon::now('America/Sao_Paulo')->format('d-m-Y H:i'); // Horário ajustado para Brasília
         $this->plano = $parking->plano;
 
         $car = Car::find($this->car_id);
         if ($car) {
             $this->car_fabricante = $car->fabricante;
             $this->car_modelo = $car->id;
+            $this->car_tipo = $car->tipo;
+
         }
 
         $this->fabricantes = Car::distinct('fabricante')
@@ -80,7 +83,11 @@ class ParkingEdit extends Component
         $restoMinutos = $diferencaMinutos % 1440;
         $horas = intdiv($restoMinutos, 60);
         $minutos = $restoMinutos % 60;
-        $this->tempo_permanencia = sprintf('%d dias, %02d:%02d', $dias, $horas, $minutos); // Formato "X dias, HH:MM"
+        if ($dias > 0) {
+            $this->tempo_permanencia = sprintf('%d dias, %02d:%02d', $dias, $horas, $minutos); // Formato "X dias, HH:MM"
+        } else {
+            $this->tempo_permanencia = sprintf('%02d:%02d', $horas, $minutos); // Formato "HH:MM"
+        }
 
         // Inicializa o valor
         $this->valor = 0.00;
@@ -91,28 +98,68 @@ class ParkingEdit extends Component
             return;
         }
 
-        // Calcula o valor
-        if ($diferencaMinutos >= 15) {
-            $this->valor = 6.00; // Valor fixo para até 30 minutos
-            dump('valor fixo:'.$this->valor);
+        if ($this->car_tipo == 2) {
+             // Se o veículo for grande, aplica a tabela de preços para veículos grandes
+             switch (true) {
+                case ($diferencaMinutos > 240):
+                    $this->valor = 16.00; // acima de 4 horas
+                    break;
+                case ($diferencaMinutos > 180):
+                    $this->valor = 13.00; // acima de 3 horas
+                    break;
+                case ($diferencaMinutos > 120):
+                    $this->valor = 12.00; // acima de 2 horas
+                    break;
+                case ($diferencaMinutos > 60):
+                    $this->valor = 10.00; // acima de 1 hora
+                    break;
+                case ($diferencaMinutos > 30):
+                    $this->valor = 8.00; // acima de 30 minutos
+                    break;
+                case ($diferencaMinutos > 5):
+                    $this->valor = 5.00; // acima de 5 minutos
+                    break;
+                default:
+                    $this->valor = 0.00; // abaixo de 5 minutos
+                    break;
+            }
+        } else {
+            // Se o veículo for pequeno, aplica a tabela de preços para veículos pequenos
+            switch (true) {
+                case ($diferencaMinutos > 240):
+                    $this->valor = 14.00; // acima de 4 horas
+                    break;
+                case ($diferencaMinutos > 180):
+                    $this->valor = 13.00; // acima de 3 horas
+                    break;
+                case ($diferencaMinutos > 120):
+                    $this->valor = 12.00; // acima de 2 horas
+                    break;
+                case ($diferencaMinutos > 60):
+                    $this->valor = 10.00; // acima de 1 hora
+                    break;
+                case ($diferencaMinutos > 30):
+                    $this->valor = 8.00; // acima de 30 minutos
+                    break;
+                case ($diferencaMinutos > 5):
+                    $this->valor = 4.00; // acima de 5 minutos
+                    break;
+                default:
+                    $this->valor = 0.00; // abaixo de 5 minutos
+                    break;
+            }
         }
 
-        if($diferencaMinutos > 30){
-                $this->valor = $this->valor + ceil(($diferencaMinutos - 30) / 30) * 3.00; // R$ 6,00 + R$ 3,00 a cada 30 minutos adicionais
-                dump('valor após 30min:'.$this->valor);
+        // se a diária passar de um dia, cobrar as diárias
+        if ($dias > 0) {
+            if ($this->car_tipo == 2) {
+                $this->valor += $dias * 16.00; // diárias para veículos grandes
+            } else {
+                $this->valor += $dias * 14.00; // diárias para veículos pequenos
+            }
         }
 
-        // Se o valor ultrapassar R$ 30,00, cobra-se R$ 30,00 para cada dia de permanência
-        if ($this->valor > 30.00) {
-            $this->valor = 30.00;
-            dump('valor utrapassa 30 reais:'.$this->valor);
-        }
-        $dias = $entrada->diffInDays($saida);
-        if ($dias > 1) {
-            $this->valor = 30.00 * $dias;
-            dump('valor após 1 dia:'.$this->valor);
-            dump('dias:'.$dias);
-        }
+
     }
 
     public function save()

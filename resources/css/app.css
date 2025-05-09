@@ -18,3 +18,29 @@
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4px);
 }
+
+/* Estilos para o drawer em dispositivos mobile*/
+/* Estilos para o drawer responsivo */
+#main-drawer {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+#main-drawer.open {
+    left: 0;
+}
+
+/* Ajustes para o botão de menu no mobile */
+.btn-menu-mobile {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+}
+/*******************************************/

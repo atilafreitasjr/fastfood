@@ -9,8 +9,17 @@ use App\Http\Controllers\CarController;
 use App\Livewire\Parking\ParkingIndex;
 use App\Livewire\Parking\ParkingCreate;
 use App\Livewire\Parking\ParkingEdit;
+use App\Livewire\Mensalista\MensalistaIndex;
+use App\Livewire\Mensalista\MensalistaForm;
 
 Route::view('/', 'welcome');
+
+//mesalistas
+Route::prefix('mensalista')->name('mensalista.')->group(function () {
+    Route::get('/', MensalistaIndex::class)->name('index');
+    Route::get('/create', MensalistaForm::class)->name('create');
+    Route::get('/{mensalista}/edit', MensalistaForm::class)->name('edit');
+});
 
 // Parking
 Route::prefix('parking')->name('parking.')->group(function () {

@@ -1,0 +1,20 @@
+
+> dev
+> vite
+
+Re-optimizing dependencies because vite config has changed
+
+  VITE v5.4.14  ready in 298 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://172.30.0.8:5173/
+
+  LARAVEL v11.29.0  plugin v1.2.0
+
+  ➜  APP_URL: http://localhost
+
+🌼   daisyUI 4.12.24
+├─ ✔︎ 2 themes added		https://daisyui.com/docs/themes
+╰─ ❤︎ Support daisyUI project:	https://opencollective.com/daisyui
+
+canceled

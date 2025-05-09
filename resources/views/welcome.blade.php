@@ -41,3 +41,261 @@
         </div>
     </body>
 </html>
+
+{{-- <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha Moderno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+
+        .cell {
+            transition: all 0.3s ease;
+        }
+
+        .cell:hover:not(.disabled) {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        .winning-cell {
+            background-color: rgba(134, 239, 172, 0.3);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-900 to-purple-800 min-h-screen flex flex-col items-center justify-center p-4 font-sans">
+    <div class="max-w-md w-full space-y-8 fade-in">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-white mb-2">Jogo da Velha</h1>
+            <p class="text-indigo-200">O clássico jogo de estratégia</p>
+        </div>
+
+        <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl shadow-2xl p-6">
+            <div class="flex justify-between items-center mb-6">
+                <div id="player-x" class="flex items-center space-x-2 bg-indigo-600 bg-opacity-50 px-4 py-2 rounded-lg">
+                    <span class="text-2xl font-bold text-white">X</span>
+                    <span class="text-white">Jogador 1</span>
+                </div>
+
+                <div id="status" class="text-white font-medium px-4 py-2 rounded-lg bg-purple-600 bg-opacity-50">
+                    Sua vez: X
+                </div>
+
+                <div id="player-o" class="flex items-center space-x-2 px-4 py-2 rounded-lg opacity-70">
+                    <span class="text-2xl font-bold text-white">O</span>
+                    <span class="text-white">Jogador 2</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-3 mb-6">
+                <!-- As células do jogo serão geradas pelo JavaScript -->
+            </div>
+
+            <div class="flex justify-between">
+                <button id="reset-btn" class="bg-red-500 hover:bg-red-600 text-white font-medium py-2 px-4 rounded-lg transition duration-300 transform hover:scale-105">
+                    Reiniciar Jogo
+                </button>
+
+                <div id="score" class="text-white font-medium py-2 px-4 rounded-lg bg-gray-700 bg-opacity-50">
+                    X: 0 | O: 0 | Empates: 0
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden z-50">
+        <div class="bg-white rounded-xl p-8 max-w-sm w-full text-center fade-in">
+            <h2 id="modal-title" class="text-2xl font-bold mb-4 text-gray-800"></h2>
+            <p id="modal-message" class="text-gray-600 mb-6"></p>
+            <button id="modal-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300">
+                Jogar Novamente
+            </button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Elementos do DOM
+            const board = document.querySelector('.grid');
+            const statusDisplay = document.getElementById('status');
+            const playerXDisplay = document.getElementById('player-x');
+            const playerODisplay = document.getElementById('player-o');
+            const resetButton = document.getElementById('reset-btn');
+            const scoreDisplay = document.getElementById('score');
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modal-title');
+            const modalMessage = document.getElementById('modal-message');
+            const modalButton = document.getElementById('modal-btn');
+
+            // Variáveis do jogo
+            let gameState = ['', '', '', '', '', '', '', '', ''];
+            let currentPlayer = 'X';
+            let gameActive = true;
+            let scores = { X: 0, O: 0, ties: 0 };
+
+            // Condições de vitória
+            const winningConditions = [
+                [0, 1, 2], [3, 4, 5], [6, 7, 8], // linhas
+                [0, 3, 6], [1, 4, 7], [2, 5, 8], // colunas
+                [0, 4, 8], [2, 4, 6]             // diagonais
+            ];
+
+            // Inicializa o tabuleiro
+            function initializeBoard() {
+                board.innerHTML = '';
+
+                for (let i = 0; i < 9; i++) {
+                    const cell = document.createElement('div');
+                    cell.classList.add('cell', 'w-full', 'h-24', 'bg-white', 'bg-opacity-10', 'rounded-lg', 'flex', 'items-center', 'justify-center', 'text-5xl', 'font-bold', 'cursor-pointer', 'text-white');
+                    cell.setAttribute('data-index', i);
+                    cell.addEventListener('click', handleCellClick);
+                    board.appendChild(cell);
+                }
+
+                updateGameStatus();
+            }
+
+            // Manipula o clique na célula
+            function handleCellClick(e) {
+                const clickedCell = e.target;
+                const clickedCellIndex = parseInt(clickedCell.getAttribute('data-index'));
+
+                // Se a célula já foi clicada ou o jogo não está ativo, não faz nada
+                if (gameState[clickedCellIndex] !== '' || !gameActive) {
+                    return;
+                }
+
+                // Atualiza o estado do jogo e a interface
+                gameState[clickedCellIndex] = currentPlayer;
+                clickedCell.textContent = currentPlayer;
+
+                // Adiciona classe de animação
+                clickedCell.classList.add('fade-in');
+
+                // Verifica se houve vitória ou empate
+                if (checkWin()) {
+                    handleWin();
+                } else if (checkTie()) {
+                    handleTie();
+                } else {
+                    changePlayer();
+                }
+            }
+
+            // Verifica se houve vitória
+            function checkWin() {
+                return winningConditions.some(condition => {
+                    const [a, b, c] = condition;
+                    return gameState[a] && gameState[a] === gameState[b] && gameState[a] === gameState[c];
+                });
+            }
+
+            // Verifica se houve empate
+            function checkTie() {
+                return !gameState.includes('');
+            }
+
+            // Manipula a vitória
+            function handleWin() {
+                gameActive = false;
+                scores[currentPlayer]++;
+                updateScore();
+
+                // Destaca as células vencedoras
+                const winningCondition = winningConditions.find(condition => {
+                    const [a, b, c] = condition;
+                    return gameState[a] && gameState[a] === gameState[b] && gameState[a] === gameState[c];
+                });
+
+                winningCondition.forEach(index => {
+                    document.querySelector(`[data-index="${index}"]`).classList.add('winning-cell');
+                });
+
+                // Mostra o modal de vitória
+                showModal(`Jogador ${currentPlayer} venceu!`, 'Parabéns pela vitória!');
+            }
+
+            // Manipula o empate
+            function handleTie() {
+                gameActive = false;
+                scores.ties++;
+                updateScore();
+                showModal('Empate!', 'Ninguém ganhou desta vez.');
+            }
+
+            // Muda o jogador atual
+            function changePlayer() {
+                currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+                updateGameStatus();
+            }
+
+            // Atualiza o status do jogo
+            function updateGameStatus() {
+                statusDisplay.textContent = `Sua vez: ${currentPlayer}`;
+
+                if (currentPlayer === 'X') {
+                    playerXDisplay.classList.add('bg-indigo-600', 'bg-opacity-50');
+                    playerXDisplay.classList.remove('opacity-70');
+                    playerODisplay.classList.add('opacity-70');
+                    playerODisplay.classList.remove('bg-indigo-600', 'bg-opacity-50');
+                } else {
+                    playerODisplay.classList.add('bg-indigo-600', 'bg-opacity-50');
+                    playerODisplay.classList.remove('opacity-70');
+                    playerXDisplay.classList.add('opacity-70');
+                    playerXDisplay.classList.remove('bg-indigo-600', 'bg-opacity-50');
+                }
+            }
+
+            // Atualiza o placar
+            function updateScore() {
+                scoreDisplay.textContent = `X: ${scores.X} | O: ${scores.O} | Empates: ${scores.ties}`;
+            }
+
+            // Mostra o modal
+            function showModal(title, message) {
+                modalTitle.textContent = title;
+                modalMessage.textContent = message;
+                modal.classList.remove('hidden');
+            }
+
+            // Esconde o modal
+            function hideModal() {
+                modal.classList.add('hidden');
+            }
+
+            // Reinicia o jogo
+            function resetGame() {
+                gameState = ['', '', '', '', '', '', '', '', ''];
+                gameActive = true;
+                currentPlayer = 'X';
+                initializeBoard();
+                hideModal();
+            }
+
+            // Event listeners
+            resetButton.addEventListener('click', resetGame);
+            modalButton.addEventListener('click', resetGame);
+
+            // Inicializa o jogo
+            initializeBoard();
+        });
+    </script>
+</body>
+</html> --}}

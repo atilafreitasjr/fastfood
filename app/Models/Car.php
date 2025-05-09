@@ -15,6 +15,7 @@ class Car extends Model
     protected $fillable = [
         'fabricante',
         'modelo',
+        'tipo',
     ];
 
     protected $dates = [

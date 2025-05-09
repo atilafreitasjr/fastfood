@@ -14,19 +14,31 @@
 
             <!-- Select para Modelos -->
             @if (!empty($modelos))
-                <select wire:model="car_modelo" class="form-control" style="height: 3rem; font-size: 1.2rem;">
-                    <option value="">Selecione um modelo</option>
-                    @foreach ($modelos as $modelo)
-                        <option value="{{ $modelo['id'] }}">{{ $modelo['name'] }}</option>
-                    @endforeach
-                </select>
+            <select wire:model="car_modelo" wire:change="carregarTipos($event.target.value)" class="form-control" style="height: 3rem; font-size: 1.2rem;">
+                <option value="">Selecione um modelo</option>
+                @foreach ($modelos as $modelo)
+                    <option value="{{ $modelo['id'] }}">{{ $modelo['name'] }}</option>
+                @endforeach
+            </select>
             @endif
+
+            {{-- Select para Tipo de Veículo --}}
+            @if ($car_modelo)
+            <select wire:model="tipo" id="tipo" class="form-control" style="height: 3rem; font-size: 1.2rem;">
+                <option value="">Selecione o tipo</option>
+                @foreach ($tipos as $tipo)
+                    <option value="{{ $tipo['id'] }}">{{ $tipo['name'] }}</option>
+                @endforeach
+            </select>
+            @error('tipo') <span class="text-danger" style="font-size: 1rem;">{{ $message }}</span> @enderror
+            @endif
+
         </div>
 
         <!-- Campo para Placa -->
         <div class="form-group" style="margin-bottom: 1.5rem;">
             <label for="placa" style="font-size: 1.2rem;">Placa</label>
-            <input type="text" wire:model="placa" id="placa" class="form-control" style="height: 3rem; font-size: 1.2rem; text-transform: uppercase;" maxlength="7" required>
+            <input type="text" wire:model="placa" id="placa" class="form-control" style="height: 3rem; font-size: 1.2rem; text-transform: uppercase;" maxlength="7" required oninput="this.value = this.value.toUpperCase()">
             @error('placa') <span class="text-danger" style="font-size: 1rem;">{{ $message }}</span> @enderror
         </div>
 
@@ -37,6 +49,8 @@
                     class="form-control" style="height: 3rem; font-size: 1.2rem;" required>
             @error('data_hora_entrada') <span class="text-danger" style="font-size: 1rem;">{{ $message }}</span> @enderror
         </div>
+
+
 
         <!-- Campo para Plano -->
         <div class="form-group" style="margin-bottom: 1.5rem;">

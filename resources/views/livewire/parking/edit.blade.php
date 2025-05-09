@@ -1,12 +1,13 @@
 <div class="card shadow-lg p-4">
-    <h1 class="text-xl font-bold mb-4">Editar Registro de Estacionamento</h1>
+    <h1 class="text-xl font-bold mb-4">Informações de Cobrança</h1>
     <form wire:submit.prevent="save">
 
         <!-- Informações do Carro -->
         <div class="form-group mb-4">
-            <h2 class="text-lg font-semibold">Informações do Carro</h2>
+            <h2 class="text-lg font-semibold">Carro</h2>
             <p><strong>Fabricante:</strong> {{ $car_fabricante }}</p>
             <p><strong>Modelo:</strong> {{ $car_modelo ? $modelos[array_search($car_modelo, array_column($modelos, 'id'))]['name'] ?? '' : '' }}</p>
+            <p><strong>Tipo:</strong> {{ $car_tipo == 1 || is_null($car_tipo) ? 'Pequeno' : ($car_tipo == 2 ? 'Grande' : 'Pequeno') }}</p>
             <!-- Inputs Hidden para Fabricante e Modelo -->
             <input type="hidden" wire:model="car_fabricante" name="car_fabricante">
             <input type="hidden" wire:model="car_modelo" name="car_modelo">
@@ -14,7 +15,7 @@
 
         <!-- Campo para Placa -->
         <div class="form-group mb-4">
-            <h2 class="text-lg font-semibold">Informações da Placa</h2>
+            <h2 class="text-lg font-semibold">Placa</h2>
             <p><strong>Placa:</strong> {{ $placa }}</p>
             <input type="hidden" wire:model="placa" name="placa">
         </div>
@@ -49,7 +50,7 @@
         <!-- Campo para Plano -->
         <div class="form-group mb-4">
             <h2 class="text-lg font-semibold">Plano</h2>
-            <p><strong>Plano:</strong> {{ $plano == 1 ? 'Mensalista' : 'Avulso' }}</p>
+            <p><strong>Plano:</strong> {{ $plano == 1 ? 'Mensalista' : 'Rotativo' }}</p>
             <input type="hidden" wire:model="plano" name="plano">
         </div>
 
@@ -57,6 +58,7 @@
         <div class="flex justify-end space-x-4">
             <button type="submit" class="btn btn-success">Realizar Cobrança</button>
             <a href="{{ route('parking.index') }}" class="btn btn-secondary">Cancelar</a>
+            <button type="button" class="btn btn-primary" onclick="window.print()">Imprimir</button>
         </div>
     </form>
 </div>

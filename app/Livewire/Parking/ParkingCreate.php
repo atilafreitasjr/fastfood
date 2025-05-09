@@ -12,7 +12,12 @@ class ParkingCreate extends Component
     public $modelos = [];
     public $car_fabricante;
     public $car_modelo;
+    public $tipo;
     public bool $confirmingSave = false;
+    public $tipos = [
+        ['id' => 1, 'name' => 'Veículo Pequeno'],
+        ['id' => 2, 'name' => 'Veículo Grande'],
+    ];
 
     public function mount()
     {
@@ -46,7 +51,25 @@ class ParkingCreate extends Component
             ->toArray();
 
         $this->car_modelo = null;
+        $this->tipo = null;
     }
+
+    public function carregarTipos($modelo)
+    {
+        if (!$modelo) {
+            $this->tipo = null;
+            return;
+        }
+
+        $car = Car::find($modelo);
+        if ($car) {
+            $this->tipo = $car->tipo; // Carrega o tipo atual do modelo
+        } else {
+            $this->tipo = null;
+        }
+    }
+
+
 
     public function confirmSave()
     {
@@ -69,11 +92,18 @@ class ParkingCreate extends Component
                 'placa' => 'required|max:7',
                 'data_hora_entrada' => 'required|date',
                 'plano' => 'nullable|integer',
+                'tipo' => 'required|integer', // Valida o tipo
             ]);
 
             // Prepara os dados para salvar
             $this->car_id = $this->car_modelo;
             $this->placa = strtoupper($this->placa);
+
+            // Atualiza o tipo no modelo do carro
+            $car = Car::find($this->car_modelo);
+            if ($car) {
+                $car->update(['tipo' => $this->tipo]);
+            }
 
             // Salva os dados
             Parking::create([
@@ -99,32 +129,6 @@ class ParkingCreate extends Component
         } catch (\Exception $e) {
             $this->addError('saveError', 'Erro ao salvar: '.$e->getMessage());
         }
-    }
-
-    public function save()
-    {
-        $this->validate([
-            'car_modelo' => 'required|exists:car,id',
-            'placa' => 'required|max:7',
-            'data_hora_entrada' => 'required|date',
-            'data_hora_saida' => 'nullable|date',
-            'valor' => 'nullable|numeric',
-            'plano' => 'nullable|integer',
-        ]);
-
-        $this->car_id = $this->car_modelo;
-        $this->placa = strtoupper($this->placa);
-
-        Parking::create([
-            'car_id' => $this->car_id,
-            'placa' => $this->placa,
-            'data_hora_entrada' => $this->data_hora_entrada,
-            'data_hora_saida' => $this->data_hora_saida,
-            'valor' => $this->valor,
-            'plano' => $this->plano,
-        ]);
-
-        return true;
     }
 
     public function getFabricanteName()
